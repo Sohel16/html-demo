@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(241, 239, 239);
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  display: block;
+  height: auto;
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 0.002em solid gray;
+}
+
+#navigation {
+  display: block;
+  height: 50px;
+  border-bottom: 3px solid black;
+  margin-bottom: 20px;
+}
+
+/* STYLING NAV BAR */
+nav {
+  width: 100%;
+}
+
+ul {
+  height: 50px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(6, 78, 141);
+}
+
+li {
+  width: 120px;
+  list-style: none;
+  display: inline block;
+  float: left;
+}
+
+li a {
+  line-height: 50px;
+  padding: 0 5px;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgb(6, 78, 141);
+  border-right: 1px solid rgb(233, 233, 243);
+}
+
+a:hover{
+    line-height: 50px;
+    padding: 0 5px;
+    background-color: aliceblue;
+    color: black;
+}
+
+#content-wraper {
+  width: 100%;
+  height: 1000px;
+  border: 1px solid red;
+}
+
+
+#content-wraper #galary {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  clear: both;
+}
+
+#galary #main-galary {
+  height: auto;
+  width: 67%;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid lightgray;
+  float: left;
+}
+
+#galary #side-galary {
+  width: 27%;
+  border: 1px solid lightgray;
+  float: right;
+  margin-right: 30px;
+}
+
+#side-galary-photos{
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,18 @@
+
+#customers-table-wraper {
+    margin: 10px;
+}
+#customers-table {
+    width: 60%;
+}
+
+#customers-table thead {
+    background-color: aliceblue;
+}
+#customers-table th, td {
+    text-align: left;
+    padding: 8px;
+}
+#customers-table td {
+    border: 1px solid lightgray;
+}
